@@ -15,6 +15,9 @@ public:
     explicit MainWindow(QWidget *parent = 0);
     ~MainWindow();
 
+    void pushButtonOK();
+    void pushButtonCansel();
+
 private:
     Ui::MainWindow *ui;
 };

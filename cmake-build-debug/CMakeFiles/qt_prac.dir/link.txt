@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/qt_prac.dir/main.cpp.o CMakeFiles/qt_prac.dir/mainwindow.cpp.o  -o qt_prac 
