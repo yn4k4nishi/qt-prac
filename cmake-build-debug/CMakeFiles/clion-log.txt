@@ -1,4 +1,0 @@
-/home/yn4k4nishi/Software/clion-2020.3/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/yn4k4nishi/workspace/qt-prac
--- Configuring done
--- Generating done
--- Build files have been written to: /home/yn4k4nishi/workspace/qt-prac/cmake-build-debug
