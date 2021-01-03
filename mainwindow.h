@@ -2,6 +2,7 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include <QPushButton>
 
 namespace Ui {
 class MainWindow;
@@ -15,11 +16,14 @@ public:
     explicit MainWindow(QWidget *parent = 0);
     ~MainWindow();
 
-    void pushButtonOK();
-    void pushButtonCansel();
+    void pushOKButton();
+    void pushCanselButton();
 
 private:
     Ui::MainWindow *ui;
+
+    QPushButton *ok_button;
+    QPushButton *cansel_button;
 };
 
 #endif // MAINWINDOW_H
