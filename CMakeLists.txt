@@ -15,10 +15,10 @@ endif()
 find_package(Qt5 COMPONENTS Widgets REQUIRED)
 
 add_executable(${PROJECT_NAME}
-        main.cpp
-        mainwindow.h
-        mainwindow.cpp
-        mainwindow.ui
+        src/main.cpp
+        src/mainwindow.h
+        src/mainwindow.cpp
+        src/mainwindow.ui
         )
 
 target_link_libraries(${PROJECT_NAME} Qt5::Widgets)
